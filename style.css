@@ -1,92 +1,124 @@
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    
 body {
-	background-color:#195ac2;
-}
-#container {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-header {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 20px;
+	color: #021e4b;
 	text-align: center;
-}
-nav {
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 1.25em;
-	font-weight: bold;
-	text-align: center;
-	margin-top: -1.5em;
-}
-nav ul {
-	padding: 0;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-nav li {
+  }
+  nav li {
 	background-color: #73a7fa;
 	border-radius: 2em;
 	list-style-type: none;
 	margin: 0.3em;
 	padding: 0.4em;
 }
-nav li a {
-	color: #FFFFFF;
+  
+  /* Add a background image and set its properties */
+  body {
+	background-image: url("Background,png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  .container {
+	max-width: 960px;
+	margin: 0 auto;
+  }
+  
+  header {
+	background-color: #174692;
+	padding: 20px;
+	margin-bottom: 50px;
+  }
+  
+  /* Add styles for the logo */
+  .logo {
+	display: inline-block;
+	margin: 0;
+  }
+  
+  .logo img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Add styles for the navigation menu */
+  nav {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  nav a {
+	color: #021e4b;
 	text-decoration: none;
-}
-.mobile {
-	display: inline;
-}
-.desktop {
-	display: none;
-}
-main {
-	display: block;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 1em;
-	margin-top: 0.5em;
-	padding: 1em;
-	border-radius: 2em 0 2em 0;
-	background-color: #FFFFFF;
-	opacity: 0.85;
-}
-main a{
+	font-size: 18px;
+  }
+  
+  nav a:hover {
+	color: #73a7fa;
+  }
+  
+  /* Add styles for the main content */
+  .main-content {
+	padding: 20px;
+	margin-bottom: 50px;
+  }
+  
+  .main-content h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+  }
+  
+  .main-content p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+  }
+  
+  .main-content img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+  }
+  
+  /* Add styles for the footer */
+  footer {
 	background-color: #021e4b;
-	border-radius: 1em;
-	color: #FFFFFF;
-	font-weight: bold;
-	padding: 0.5em;
-	text-decoration: none;
-}
-footer {
-	font-size: .70em;
-	text-align: center;
-	margin-top: 2em;
-	color: #FFFFFF;
-}
-footer a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-.tablet {
-	display: none;
-}
-.equip {
-	display: none;
-}
-aside {
-	font-style: italic;
-}
-input, select, textarea {
-	display: block;
-	margin-bottom: 1em;
-}
-label {
-	display: block;
-}
-form ul{
-	list-style-type: none;
-}
+	color: #fff;
+	padding: 20px;
+  }
+  
+  /* Add styles for the social media icons */
+  .social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .social-media a {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  .social-media img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Add hover styles for social media icons */
+  .social-media a:hover img {
+	transform: scale(1.2);
+	transition: transform 0.3s ease-in-out;
+  }
