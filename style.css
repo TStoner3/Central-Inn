@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
 body {
 	background-color:#195ac2;
 }
@@ -85,10 +89,4 @@ label {
 }
 form ul{
 	list-style-type: none;
-=======
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
->>>>>>> 63f61e0 (Correction update and CSS reset)
 }
