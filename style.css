@@ -1,4 +1,4 @@
-body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video { /*Shoudl we add p here?*/
     margin: 0;
     padding: 0;
     border: 0;
@@ -177,3 +177,75 @@ label {
 form ul{
 	list-style-type: none;
 }
+#submit {					/*style for the button but you can def change it!*/
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+  
+#submit:hover {				/*hover button */
+	background-color: darkblue;
+}
+
+#form {						/*Everythign below is for the form but again change as needed.*/
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+  
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+  
+legend {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+  
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+	font-size: 16px;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+  
+input[type="submit"] {
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.row {			/*style for the row* div*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  
+  .room {	/*style for the room div*/
+	flex-basis: 45%;
+	margin-bottom: 20px;
+  }

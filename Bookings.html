@@ -19,9 +19,7 @@
     <body>
         <!--Use The header for the website name or logo-->
         <header>
-            <p>heloooooooooooo</p>
             <a href="Bookings.html"><img src="/media/Central INN Logo 4.jpg" alt="Central Inn & Suites Logo"></a>
-        </header>
         <!--Use the nave area to ad hyperlinks to other pages within the website-->
         <nav>
             <ul>
@@ -32,6 +30,72 @@
          </uL>
         </nav>
         <main>
+            <a href="Bookings.html"><img src="/media/Central INN FRONT IMAGE.jpg" alt="Central Inn Front Page Image"></a>
+            <h1> Welcome to Central-Inn!</h1>
+            <p>At Central-Inn, we offer a variety of room types to suit your needs. Our rooms can house up to four people and are designed with your comfort in mind featuring comfortable bedding, Wi-Fi, and other modern amenities. To get started, please select your desired dates of stay and the number of guests. Our team will match you with the perfect room available, along with the rate. </p>
+        </header>
+            <div class="row">                              /*we would need padding adn such fro this*/
+                <div class="room">                             /*we would need padding adn such fro this*/
+                    <img src="/media/Singlesbed.avif.jpg" alt="Single Room">
+                </div>
+                <div class="room">
+                    <h2>Single Room</h2>
+                    <p>A cozy room perfect for a solo traveler. The room features a comfortable twin-sized bed, a desk, and a private bathroom. Amenities include complimentary Wi-Fi, cable TV, and air conditioning. </p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="room">
+                    <img src="/media/Doublebed.jpeg" alt="Double Room">
+                </div>
+                <div class="room">
+                    <h2>Double Room</h2>
+                    <p>A spacious room perfect for couples or friends traveling together. The room features two comfortable full-sized beds, a desk, and a private bathroom. Amenities include complimentary Wi-Fi, cable TV, and air conditioning.</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="room">
+                    <img src="/media/Triple.jpeg" alt="Triple Room">
+                </div>
+                <div class="room">
+                    <h2>Triple Room</h2>
+                    <p>A great option for families or small groups. The room features three comfortable twin-sized beds, a desk, and a private bathroom. Amenities include complimentary Wi-Fi, cable TV, and air conditioning.</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="room">
+                    <img src="/media/family-room.jpeg" alt="Family Room">
+                </div>
+                <div class="room">
+                    <h2>Family Room</h2>
+                    <p>A spacious room perfect for families or groups of up to four. The room features a comfortable king-sized bed and two twin-sized beds, a desk, and a private bathroom. Amenities include complimentary Wi-Fi, cable TV, and air conditioning.</p>
+                </div>
+            </div>
+            <div id="form">         /*we would need padding adn such fro this*/
+                <form>
+                    <fieldset>
+                        <legend>Book Your Room</legend> 
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+                        <label for="lName">Last Name:</label> 
+                        <input type="text" name="lName" id="lName" required>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="phone">Phone: </label>
+                        <input type="tel" id="phone" name= "phone" required>
+                        <label for="reference">Select the number of beds</label>
+                        <select name="reference" id="reference"> 
+                        <option value="One">1</option>
+                        <option value="Two">2</option>
+                        <option value="Three">3</option>
+                        <option value="Four">4</option>
+                        </select>
+                    </fieldset>
+                    <input type="submit" id="submit" value ="Submit" class="btn">       /*woudl need to style button*/         
+                </form>
+            </div>
        </main>
        <!--Use the footer area to add webpage footer content-->
        <footer>
